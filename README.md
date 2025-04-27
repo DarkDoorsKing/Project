@@ -1,4 +1,4 @@
 # Project
 
-Blox Fruits Script!
+Roblox Script
 By Blackking - Client
