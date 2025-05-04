@@ -1,4 +1,4 @@
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Gui/main/Nofitication.lua"))()
 local GameP = game.PlaceId
 
 local function NotifyText(Text)
