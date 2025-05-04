@@ -9,7 +9,12 @@ Notification:Notify(
 end
 
 NotifyText("Checking")
-NotifyText("Check Place Id..")
+
+if getgenv().blackkingloaded then
+NotifyText("Blackking is already running!")
+    return
+end
+getgenv().blackkingloaded = true
 
 if GameP == 2753915549 or GameP == 4442272183 or GameP == 7449423635 then  -- Blox fruits
 NotifyText("Blox Fruits Script Loaded!")
