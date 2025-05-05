@@ -1,11 +1,11 @@
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Gui/main/Nofitication.lua"))()
 local GameP = game.PlaceId
 
 local function NotifyText(Text)
-Notification:Notify(
-    {Title = "Blackking - Client", Description = Text},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
-)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Blackking - Client", -- Required
+	Text = Text, -- Required
+	Icon = "rbxassetid://122022293854293" -- Optional
+})
 end
 
 NotifyText("Checking")
