@@ -19,6 +19,8 @@ getgenv().blackkingloaded = true
 if GameP == 2753915549 or GameP == 4442272183 or GameP == 7449423635 then  -- Blox fruits
 NotifyText("Blox Fruits Script Loaded!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/BloxFruits.lua"))()
+elseif GameP == 6839171747 then -- Doors Game
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/Doors.lua"))()
   else -- Not Support
 NotifyText("Game Not Support " .. "[" .. GameP .. "]")
 end
